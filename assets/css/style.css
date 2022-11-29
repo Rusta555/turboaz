@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.top-bar {
+    
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+    padding: 20px 0px;
+    margin: 0px 0px;
+}
+
+.switch {
+    color: rgb(78, 75, 75);
+    display: flex;
+}
+
+.switch li {
+    margin: 10px;
+}
+
+.infobar {
+    margin: 50px 20px;
+    display: flex;
+}
+
+.infobar li {
+    
+    color: rgb(78, 75, 75);
+}
+
+.infobar li a {
+    margin: 10px;
+    color: rgb(78, 75, 75);
+}
+
+.infobar li a:hover {
+    color: brown;
+}
+
+.main-header {
+
+    height: 60px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(212, 0, 0);
+    padding: 20px 0px;
+    margin: 0px 0px;
+}
+
+.header-top-nav {
+    margin: 50px 20px;
+    display: flex;
+}
+
+.header-top-nav li {
+    margin: 20px;
+}
