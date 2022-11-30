@@ -6,59 +6,139 @@
     list-style-type: none;
 }
 
-.top-bar {
-    
-    height: 60px;
+header {
     width: 100%;
+    height: 1000px;
+    background-color: aliceblue;
+}
+
+.top-bar {
+    width: 100%;
+    height: 90px;
     display: flex;
-    background-color: bisque;
-    padding: 20px 0px;
-    margin: 0px 0px;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(232, 231, 253);
+    color: #fff;
 }
 
 .switch {
-    color: rgb(78, 75, 75);
     display: flex;
+    align-items: center;
+    margin: 0px 25px;
 }
 
-.switch li {
-    margin: 10px;
+.switch li a span {
+    margin: 5px;
+    color: rgba(61, 61, 61, 0.445);
 }
+
 
 .infobar {
-    margin: 50px 20px;
     display: flex;
+    align-items: center;
+    margin: 0px 25px;
 }
 
 .infobar li {
-    
-    color: rgb(78, 75, 75);
+    margin: 15px;
+    color: rgba(61, 61, 61, 0.445);
 }
 
 .infobar li a {
-    margin: 10px;
-    color: rgb(78, 75, 75);
+
+    color: rgba(61, 61, 61, 0.445);
 }
 
 .infobar li a:hover {
-    color: brown;
+
+    color: rgb(255, 0, 0);
 }
 
 .main-header {
-
-    height: 60px;
     width: 100%;
+    height: 100px;
     display: flex;
-    background-color: rgb(212, 0, 0);
-    padding: 20px 0px;
-    margin: 0px 0px;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(180, 15, 15);
+    color: #fff;
 }
+
+
 
 .header-top-nav {
-    margin: 50px 20px;
     display: flex;
+    align-items: center;
+    margin: 0px 350px;
+    font-size: 20px;
 }
 
-.header-top-nav li {
+.header-top-nav li a{
+    color: #fff;
     margin: 20px;
+}
+
+.header-top-nav li a:hover{
+    color: rgb(167, 103, 103);
+}
+
+.home-page {
+    margin: 0px 0px;
+    padding: 0px 0px;
+    font-size: 35px;
+}
+
+.home-page li a:hover {
+    color: #fff;
+}
+
+
+.menu:hover .dropdown {
+    display: block;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.dropdown{
+    display: none;
+}
+
+.dropdown li {
+    color: #fff;
+}
+.dropdown li a {
+    color: rgb(0, 0, 0);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns:250px 250px 250px;
+    grid-template-rows: 80px 80px;
+    grid-auto-rows: 100px;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.grid li {
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.make {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.make:hover .car-makers {
+    display: block;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.car-makers{
+    display: none;
 }
