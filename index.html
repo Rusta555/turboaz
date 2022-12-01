@@ -16,6 +16,9 @@
      <!-- headers -->
     <header>
         <nav>
+
+            <!-- Support bar -->
+
             <div class="top-bar">
                         <ul class="switch">
                             <li>
@@ -54,15 +57,16 @@
                             </li>
                         </ul>
                 </div>
-                <div class="main-header">
 
-                   
+                    <!-- Main Header -->
+
+                <div class="main-header">
                     
                     <ul class="header-top-nav">
                     
                     <li>
                         <ul class="home-page">   
-                            <li>
+                            <li class="refresh">
                                 <a href="#"><span>TURBO.AZ</span></a>
                             </li>
                         </ul>
@@ -74,53 +78,72 @@
                     <li>
                         <a href="#"><span>Avtosalonlar</span></a>
                     </li>
-                        <li class="menu">
-                            <a href="#"><span>Ehtiyyat hisseleri ve aksesuarlar</span></a>
-                                <ul class="dropdown">              
-                                    <li>
-                                        <a href="#">AAA</a>
-                                    </li> 
-                                    <li>
-                                        <a href="#">BBB</a>
-                                    </li> 
-                                        <li>
-                                    <a href="#">CCC</a>
-                                    </li> 
-                                        <li>
-                                    <a href="#">DDD</a>
-                                        </li> 
-                                    <li>
-                                        <a href="#">EEE</a>
-                                    </li>
+
+                    <!-- Dropdown -->
+
+                        <li class="dropdown">
+
+                            <button class="dropbtn"><a href="#"><span>Ehtiyyat hisseleri ve aksesuarlar</span></a></button>
+                                <ul class="dropdown-content">
+                                <li>             
+                                <a href="#">AAA</a>
+                                <a href="#">BBB</a>
+                                <a href="#">CCC</a>
+                                <a href="#">DDD</a>
+                                <a href="#">EEE</a> 
+                                </li>                            
                                 </ul>  
                             </li>                                 
                         </li>
                     </ul>
                 </div>
  
-                <ul class="grid">
-                    <li class="make">
-                        <a href="#"><span>Markani secin</span></a>
-                            <ul class="car-makers">              
-                                <li>
-                                    <a href="#">Audi</a>
-                                </li>
-                                <li>
-                                    <a href="#">BMW</a>
-                                </li>
-                                <li>
-                                    <a href="#">Mercedes</a>
-                                </li>
-                            </ul>
-                    </li>    
+                <!-- click dropdown Car makers and features selectors -->
+
+                <ul class="grid-head">
+                <li class="dropdown-click">
+                        <button onclick="myFunction()" class="dropbtn-1">Markani secin</button>
+                        <ul>
+                        <li id="myDropdown" class="dropdown-content-makers">
+                        <a href="#">Audi</a>
+                        <a href="#">BMW</a>
+                        <a href="#">Citroen</a>
+                        </li>
+                        </ul>
+                      </li>   
+                    <li>item2</li>
                     <li>item3</li>
-                    <li>item3</li>
+                    <li>item4</li>
                 </ul>
-    </nav> 
+    </nav>
     </header>
         <main>
 
+            <section>
+
+                <!-- Main content -->
+
+                <div class="box">
+                    <figure class="card">
+                        <img src="./assets/image/74277_pPK5jzofxP1zp-kOnZ4G5g.jpg" alt="home" />
+                        <span class="percent"><i class="fa-solid fa-percent"></i></span>
+                        <span class="heart-1"><i class="fa-regular fa-heart"></i></i></span>
+                        <span class="heart-2"><i class="fa-solid fa-heart"></i></span>
+                        <p class="price"> 32000 <span>AZN</span></p>
+                        <p class="model">Hyundai Tucson</p>
+                        <p class="make-features">2012,<span>2.2 L,</span><span>120000 km</span></p>
+                        <p class="date">Bakı, Bugün, <span>12:30</span></p>
+
+                    </figure>
+                </div>
+                
+
+
+            </section>
+
         </main>
 
+        <script src="https://kit.fontawesome.com/0ba586e4fc.js" crossorigin="anonymous"></script>
+        <script src="./assets/js/myscript.js"></script>
 </body>
 </html>
